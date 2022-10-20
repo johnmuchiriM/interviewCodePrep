@@ -17,6 +17,7 @@ c.next = d;
 // A -> B -> C -> D -> Null
 // cur
 
+// Iterative version of LinkedList
 // const printLinkedList = (head) => {
 //     let current = head;
 //     while( current !== null){
