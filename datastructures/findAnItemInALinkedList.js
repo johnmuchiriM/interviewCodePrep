@@ -27,7 +27,7 @@ c.next = d;
 //     return false;
 // }
 
-// Recursive way Uses O(n) space but O(n) time
+// Recursive way Uses O(n) space because of the call stack but O(n) time
 
 const linkedListFind = (head, target) => {
     if(head === null) return false;
