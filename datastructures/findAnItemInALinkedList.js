@@ -14,7 +14,7 @@ a.next = b;
 b.next = c;
 c.next = d;
 
-// Iterative way
+// Iterative way O(1) space but O(n) time
 // const linkedListFind =(head, target) => {
 //     let current = head;
 //     while (current !== null){
@@ -27,7 +27,7 @@ c.next = d;
 //     return false;
 // }
 
-// Recursive way
+// Recursive way Uses O(n) space but O(n) time
 
 const linkedListFind = (head, target) => {
     if(head === null) return false;
