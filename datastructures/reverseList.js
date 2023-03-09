@@ -14,7 +14,7 @@ a.next = b;
 b.next = c;
 c.next = d;
 
-Iterative | O(n) time and O(1) space complexity
+// Iterative | O(n) time and O(1) space complexity
 const reverseList = (head) => {
     let prev = null; //2nd
     let current = head; //1st
