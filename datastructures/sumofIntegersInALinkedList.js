@@ -16,18 +16,18 @@ c.next = d;
 
 
 // Iterative
-// const sumList = (head) =>{
-//     let sum = 0;
-//     let current = head;
+const sumList = (head) =>{
+    let sum = 0;
+    let current = head;
 
-//     while(current !== null){
-//         sum += current.val;
-//         current = current.next;
-//     }
-//     console.log(sum);
-//     return sum;
+    while(current !== null){
+        sum += current.val;
+        current = current.next;
+    }
+    console.log(sum);
+    return sum;
     
-// }
+}
 
 //Recursive
 const sumList = (head) => {
